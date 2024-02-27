@@ -1,0 +1,22 @@
+{
+  "name": "app_client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaedemalu/gcloud_emulate_handson.git"
+  },
+  "author": "kaedemalu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaedemalu/gcloud_emulate_handson/issues"
+  },
+  "homepage": "https://github.com/kaedemalu/gcloud_emulate_handson#readme",
+  "dependencies": {
+    "@google-cloud/spanner": "^7.4.0"
+  }
+}
