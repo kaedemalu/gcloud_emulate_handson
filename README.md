@@ -58,7 +58,7 @@ $ gcloud spanner databases create localdb \
 # DDLを実行(類似のオプションとして--ddl-fileオプションもある)
 $ gcloud spanner databases ddl update localdb \
          --instance=emulator-instance \
-         --ddl="create table users ( id string(max) not null,name string(max) not null) primary key (id)"
+         --ddl="create table users ( id int64 not null,name string(max) not null) primary key (id)"
 
 # 実行したDDLを表示
 $ gcloud spanner databases ddl describe localdb --instance emulator-instance
